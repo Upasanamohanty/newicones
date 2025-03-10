@@ -1,0 +1,22 @@
+import { Wrench } from "lucide-react";
+
+const PropertyMaintenanceIcon = () => {
+  return (
+    <div
+      className="flex items-center justify-center border border-gray-400 rounded-lg"
+      style={{
+        width: "310px",
+        height: "286px",
+        position: "absolute",
+        top: "390px",
+        left: "61px",
+        borderRadius: "10px",
+        borderWidth: "1px",
+      }}
+    >
+      <Wrench size={80} className="text-gray-700" />
+    </div>
+  );
+};
+
+export default PropertyMaintenanceIcon;
